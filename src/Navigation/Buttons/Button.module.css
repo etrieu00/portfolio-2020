@@ -1,0 +1,24 @@
+.Button {
+    position: static;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    left: 20px;
+    
+    flex: none;
+    align-self: center;
+    margin: 20px 0 0 0;
+    border-radius: 20px;
+}
+
+.Button:hover{
+    background: #DD2800;
+    transition: ease-in-out red;
+}
+
+.active {
+    background: #83FFCA;
+}
+.inactive{
+    background-color: white;
+}

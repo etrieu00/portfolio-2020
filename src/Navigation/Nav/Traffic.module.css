@@ -1,0 +1,12 @@
+.Traffic {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: 350px;
+    right: 0;
+    width: 65px;
+    height: 260px;
+    background: #32435C;
+    border-radius: 15px 0px 0px 15px;
+}
