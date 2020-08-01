@@ -1,0 +1,33 @@
+.Contact{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.Git {
+    position: absolute;
+    top: 10vh;
+    left: 8vw
+}
+
+.ContactMe{
+    position: absolute;
+    top: 10vh;
+    left: 38vw;
+}
+
+.Linkedin{
+    position: absolute;
+    top: 55vh;
+    left: 68vw;
+}
+
+.Other{
+    position: absolute;
+    top: 55vh;
+    left: 8vw;
+}

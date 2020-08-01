@@ -1,0 +1,30 @@
+.Text{
+    font-family: Staatliches;
+    display: inline-block;
+    padding: 0;
+    color: black;
+}
+
+.Red{
+    color: #DD2800;
+}
+
+.Green{
+    color: #00A35D;
+}
+
+.Grey{
+    color: #6D6D6D;
+}
+
+.Normal{
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin: .5vh 0;
+}
+
+.Title{
+    font-weight: bold;
+    font-size: 3vw;
+    margin: .1vh 0;
+}
