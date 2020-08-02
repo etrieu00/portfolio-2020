@@ -55,12 +55,15 @@
     height: 80vh;
 }
 
-.Pop{
+.Overlay{
     align-self: center;
+    transition: all 1s ease-in-out;
+    
 }
 
 .Medium:hover,
 .Small:Hover {
     transition: all 1s ease-in-out; 
     transform: scale(1.015);
+    cursor: pointer;
 }

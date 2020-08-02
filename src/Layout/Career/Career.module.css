@@ -39,3 +39,20 @@
     text-align: center;
     justify-content: center;
 }
+
+.Overlay {
+    position: fixed;
+    top: 10%;
+    left: 8%;
+    z-index: 2;
+    transition: ease-in-out .8s;
+    cursor: pointer;
+}
+
+.Hide{
+    position: fixed;
+    top: 10%;
+    left: -100%;
+    z-index: 2;
+    transition: ease-in-out .8s;
+}

@@ -5,6 +5,10 @@ import Note from '../../Display/Note';
 import Paragraph from '../TextFormating/Paragraph';
 import Text from '../TextFormating/Text';
 
+import GithubLogo from '../../Resources/Logos/GitHub_Logo.png'; 
+import GithubMark from '../../Resources/Logos/GitHub-Mark-120px-plus.png';
+import LinkedinLogo from '../../Resources/Logos/LI-Logo.png';
+
 const Contact = () => {
 
     const OpenGit = () => {
@@ -16,12 +20,17 @@ const Contact = () => {
     };
     return(
         <div className={classes.Contact}>
-            <Note type="Small" styles={classes.Git} click={OpenGit}>
-                <Text type="Title">Github</Text>
-                <br/>
-                <br/>
-                <br/>
-                <Text type="Normal" color="Red">Click me!</Text>
+            <Note type="Small" styles={classes.Git} click={OpenGit}> 
+                <img 
+                src={GithubLogo}
+                alt="Github"
+                className={classes.CenterImage} 
+                style={{top: '30%'}}/>
+                <img 
+                src={GithubMark}
+                alt="Octo cat!"
+                className={classes.CenterImage} 
+                style={{width: '30%',top: '70%'}}/>
             </Note>
             <Note type="Medium" styles={classes.ContactMe}>
                 <Text type="Title">Contact me!</Text>
@@ -40,11 +49,10 @@ const Contact = () => {
                 
             </Note>
             <Note type="Small" styles={classes.Linkedin} click={OpenLinkedin}>
-                <Text type="Title">Linkedin</Text>
-                <br/>
-                <br/>
-                <br/>
-                <Text type="Normal" color="Red">Click me!</Text>
+                <img 
+                src={LinkedinLogo} 
+                alt="Linkedin"
+                className={classes.CenterImage}></img>
             </Note>
         </div>
     );

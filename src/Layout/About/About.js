@@ -5,6 +5,8 @@ import Note from '../../Display/Note';
 import Paragraph from '../TextFormating/Paragraph';
 import Text from '../TextFormating/Text';
 
+import Photo from '../../Resources/Photos/Eric-Trieu.jpg';
+
 const About = (props) => {
     return(
         <div className={classes.About}>
@@ -12,6 +14,11 @@ const About = (props) => {
                 <div className={classes.Container}>
                     <div className={classes.Left}>
                         <Text type="Title">About Me</Text>
+                        <br/>
+                        <img 
+                        alt="Eric Trieu"
+                        src={Photo} 
+                        style={{width: '60%'}}/>
                     </div>
                     <div className={classes.Right}>
                         <Paragraph>

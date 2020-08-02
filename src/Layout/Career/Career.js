@@ -1,17 +1,70 @@
-import React from 'react';
+import React, {useState} from 'react';
 import classes from './Career.module.css';
 import Note from '../../Display/Note';
 import Paragraph from '../TextFormating/Paragraph';
 import Text from '../TextFormating/Text';
 
 const About = (props) => {
+    const[state,setState] = useState(
+        {
+            cs: false,
+            tsi: false,
+            ce: false,
+            skills: false,
+        }
+    );
+
+    const OpenOverlay = (which) => {
+        let update = {...state};
+        update[which] = true;
+        setState(update);
+    };
+
+    const CloseOverlay = () => {
+        setState({
+            cs: false,
+            tsi: false,
+            ce: false,
+            skills: false,
+        });
+    }
+
     const OpenResume = () =>{
         // window.open('../../Resources/PDF/Eric-Trieu-Resume-Online-8-01-20.pdf','_newtab');
-    }
+    };
 
     return(
         <div className={classes.Career}>
-            <Note type="Small" styles={classes.CS}>
+            
+            <Note 
+            type="Large" 
+            styles={state.cs ? classes.Overlay : classes.Hide}
+            click={CloseOverlay}>
+
+            </Note>
+            <Note 
+            type="Large" 
+            styles={state.tsi ? classes.Overlay : classes.Hide}
+            click={CloseOverlay}>
+
+            </Note>
+            <Note 
+            type="Large" 
+            styles={state.ce ? classes.Overlay : classes.Hide}
+            click={CloseOverlay}>
+                
+            </Note>
+            <Note 
+            type="Large" 
+            styles={state.skills ? classes.Overlay : classes.Hide}
+            click={CloseOverlay}>
+
+            </Note>
+
+            <Note 
+            type="Small" 
+            styles={classes.CS}
+            click={ () => OpenOverlay('cs') }>
                 <Text type="Title"> Computer</Text>
                 <Text type="Title"> Science</Text>
                 <Paragraph>
@@ -22,7 +75,10 @@ const About = (props) => {
                     <Text type="Normal" color="Red">~ December 2019</Text>
                 </Paragraph>
             </Note>
-            <Note type="Small" styles={classes.TSI}>
+            <Note 
+            type="Small" 
+            styles={classes.TSI}
+            click={ () => OpenOverlay('tsi') }>
                 <Text type="Title">Trident Systems Inc</Text>
                 <Paragraph>
                     <Text type="Normal" color="Grey">I started my first job at</Text>
@@ -39,7 +95,10 @@ const About = (props) => {
                     <Text type="Normal" color="Green">{ (new Date()).toISOString().split('T')[0] }</Text>
                 </Paragraph>
             </Note>
-            <Note type="Small" styles={classes.CE}>
+            <Note 
+            type="Small" 
+            styles={classes.CE}
+            click={ () => OpenOverlay('ce') }>
                 <Text type="Title">Computer Engineering</Text>
                 <Paragraph>
                     <Text type="Normal" color="Grey">I plan to return to</Text>
@@ -69,7 +128,10 @@ const About = (props) => {
                     <Text type="Normal" color="Green">resume!</Text>
                 </Text>
             </Note>
-            <Note type="Small" styles={classes.Skills}>
+            <Note 
+            type="Small" 
+            styles={classes.Skills}
+            click={ () => OpenOverlay('skills') }>
                 <Text type="Title">Skills</Text>
                 <Paragraph>
                     <Text type="Normal" color="Grey">- Java</Text>

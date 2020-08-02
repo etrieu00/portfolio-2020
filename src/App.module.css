@@ -10,3 +10,23 @@
 .Landing{
   align-self: center;
 }
+
+.Logo{
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 8%;
+}
+
+.DashesHorizontal {
+  position: absolute;
+  top: 3.6%;
+  left: 10%;
+  width: 90%;
+}
+
+.DashesVertical {
+  position: fixed;
+  top: 8%;
+  left: 3%;
+}
