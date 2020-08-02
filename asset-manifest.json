@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "./static/css/main.6d34c9ef.chunk.css",
+    "main.js": "./static/js/main.9e7a4d54.chunk.js",
+    "main.js.map": "./static/js/main.9e7a4d54.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.c0448a7e.js",
+    "runtime-main.js.map": "./static/js/runtime-main.c0448a7e.js.map",
+    "static/js/2.de0522b2.chunk.js": "./static/js/2.de0522b2.chunk.js",
+    "static/js/2.de0522b2.chunk.js.map": "./static/js/2.de0522b2.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.f5cfd32f39207a0f8cd319bde52adc58.js": "./precache-manifest.f5cfd32f39207a0f8cd319bde52adc58.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.6d34c9ef.chunk.css.map": "./static/css/main.6d34c9ef.chunk.css.map",
+    "static/js/2.de0522b2.chunk.js.LICENSE.txt": "./static/js/2.de0522b2.chunk.js.LICENSE.txt",
+    "static/media/Dashes-H.7fb7ceb0.svg": "./static/media/Dashes-H.7fb7ceb0.svg",
+    "static/media/Dashes-V.1305d6db.svg": "./static/media/Dashes-V.1305d6db.svg",
+    "static/media/Eric-Trieu.jpg": "./static/media/Eric-Trieu.2235256c.jpg",
+    "static/media/GitHub_Logo.png": "./static/media/GitHub_Logo.cefc2023.png",
+    "static/media/LI-Logo.png": "./static/media/LI-Logo.c24cde28.png",
+    "static/media/Logo.a9640498.svg": "./static/media/Logo.a9640498.svg",
+    "static/media/Sheep.a28e771f.svg": "./static/media/Sheep.a28e771f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c0448a7e.js",
+    "static/js/2.de0522b2.chunk.js",
+    "static/css/main.6d34c9ef.chunk.css",
+    "static/js/main.9e7a4d54.chunk.js"
+  ]
+}
