@@ -13,3 +13,15 @@
     top: 10vh;
     left: 8vw;
 }
+.Container {
+    display: flex;
+    flex-direction: row;
+}
+.Left {
+    flex: 1;
+}
+
+.Right {
+    flex: 1;
+    margin: 4vh 0;
+}

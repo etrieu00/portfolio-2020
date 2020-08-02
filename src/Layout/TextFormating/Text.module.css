@@ -20,11 +20,17 @@
 .Normal{
     font-size: 1.2vw;
     font-weight: bold;
+    margin:.3vh 0;
+}
+
+.Large{
+    font-weight: bold;
+    font-size: 3vw;
     margin: .5vh 0;
 }
 
 .Title{
     font-weight: bold;
     font-size: 3vw;
-    margin: .1vh 0;
+    margin: 0;
 }

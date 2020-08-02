@@ -32,8 +32,10 @@
     left: 8vw;
 }
 
-.Other{
+.Resume{
     position: absolute;
     top: 55vh;
-    left: 68vw;
+    left: 38vw;
+    text-align: center;
+    justify-content: center;
 }

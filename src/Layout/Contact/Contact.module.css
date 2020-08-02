@@ -11,22 +11,25 @@
 .Git {
     position: absolute;
     top: 10vh;
-    left: 8vw
+    left: 8vw;
+    text-align: center;
 }
 
 .ContactMe{
     position: absolute;
     top: 10vh;
     left: 38vw;
+    text-align: center;
 }
 
 .Linkedin{
     position: absolute;
     top: 55vh;
     left: 68vw;
+    text-align: center;
 }
 
-.Other{
+.Resume{
     position: absolute;
     top: 55vh;
     left: 8vw;
