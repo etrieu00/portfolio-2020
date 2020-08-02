@@ -1,0 +1,21 @@
+.Show{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    transition: ease-in-out 1s;
+    background: rgba(0, 0, 0, 0.700)
+}
+
+.Hide{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    transition: ease-in-out 1s;
+    background: rgba(0, 0, 0, 0.0)
+}

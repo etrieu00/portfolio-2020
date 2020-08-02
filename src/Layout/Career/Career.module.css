@@ -44,7 +44,7 @@
     position: fixed;
     top: 10%;
     left: 8%;
-    z-index: 2;
+    z-index: 3;
     transition: ease-in-out .8s;
     cursor: pointer;
 }
@@ -53,6 +53,12 @@
     position: fixed;
     top: 10%;
     left: -100%;
-    z-index: 2;
+    z-index: 3;
     transition: ease-in-out .8s;
+}
+
+.Sheep{
+    position: fixed;
+    width: 100%;
+    bottom: 15vh;
 }

@@ -29,7 +29,7 @@
     text-align: center;
 }
 
-.Resume{
+.Other{
     position: absolute;
     top: 55vh;
     left: 8vw;
@@ -41,4 +41,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.Sheep {
+    position: absolute;
+    bottom: 5vh;
 }

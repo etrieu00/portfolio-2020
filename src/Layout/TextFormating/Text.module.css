@@ -23,6 +23,12 @@
     margin:.3vh 0;
 }
 
+.Medium{
+    font-size: 1.8vw;
+    font-weight: bold;
+    margin: .5vh 0;
+}
+
 .Large{
     font-weight: bold;
     font-size: 3vw;

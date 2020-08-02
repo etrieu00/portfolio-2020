@@ -10,6 +10,7 @@ const Text = (props) =>{
                 </h1>
                 );
         case 'Normal':
+        case 'Medium':
         case 'Large':
             return (
                 <span className={[classes.Text, classes[props.color], classes[props.type]].join(' ')}>

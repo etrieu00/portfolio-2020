@@ -22,12 +22,12 @@ const About = (props) => {
                     </div>
                     <div className={classes.Right}>
                         <Paragraph>
-                            <Text type="Normal" color="Grey">My hobbies include coding, cooking, and art.</Text>
-                            <Text type="Normal" color="Grey">I like to eat beef, lamb, and bread.</Text>
-                            <Text type="Normal" color="Grey">Functional programming is better than object oriented programming.</Text>
-                            <Text type="Normal" color="Grey">I am good at origami and random things.</Text>
-                            <Text type="Normal" color="Grey">Filthy weeb who likes to read manga.</Text>
-                            <Text type="Normal" color="Grey">I own a dog named Lucky and some koi fishes.</Text>
+                            <Text type="Medium" color="Grey">My hobbies include coding, cooking, and art.</Text>
+                            <Text type="Medium" color="Grey">I like to eat beef, lamb, and bread.</Text>
+                            <Text type="Medium" color="Grey">Functional programming is better than object oriented programming.</Text>
+                            <Text type="Medium" color="Grey">I am good at origami and random things.</Text>
+                            <Text type="Medium" color="Grey">Filthy weeb who likes to read manga.</Text>
+                            <Text type="Medium" color="Grey">I own a dog named Lucky and some koi fishes.</Text>
                         </Paragraph>
                     </div>
                 </div>

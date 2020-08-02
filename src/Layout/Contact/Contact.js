@@ -8,6 +8,7 @@ import Text from '../TextFormating/Text';
 import GithubLogo from '../../Resources/Logos/GitHub_Logo.png'; 
 import GithubMark from '../../Resources/Logos/GitHub-Mark-120px-plus.png';
 import LinkedinLogo from '../../Resources/Logos/LI-Logo.png';
+import {ReactComponent as Sheep} from '../../Resources/SVG/Sheep.svg';
 
 const Contact = () => {
 
@@ -45,8 +46,8 @@ const Contact = () => {
                     </Text>
                 </Paragraph>
             </Note>
-            <Note type="Medium" styles={classes.Resume}>
-                
+            <Note type="Medium" styles={classes.Other}>
+                <Sheep className={classes.Sheep}/>
             </Note>
             <Note type="Small" styles={classes.Linkedin} click={OpenLinkedin}>
                 <img 
