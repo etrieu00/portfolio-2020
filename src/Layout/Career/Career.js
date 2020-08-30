@@ -69,7 +69,7 @@ const About = (props) => {
                 <br/>
                 <Text type="Title">Software Engineeer</Text>
                 <Paragraph>
-                    <Text type="Medium" color="Grey">- UI/UX design with Figma</Text>
+                    <Text type="Medium" color="Grey">- UI/UX design with Adobe XD</Text>
                     <Text type="Medium" color="Grey">- UI development in JavaFX and CSS</Text>
                     <Text type="Medium" color="Grey">- Data Parsing and translating with Python</Text>
                     <Text type="Medium" color="Grey">- Message parsing and translating with C++</Text>
@@ -78,8 +78,7 @@ const About = (props) => {
                     <Text type="Medium" color="Grey">- Junit testing</Text>
                     <Text type="Medium" color="Grey">- Code analysis and security checks</Text>
                     <Text type="Medium" color="Grey">- Documentation of the project</Text>
-                    <Text type="Medium" color="Grey">
-                        Involved development with project ERSA. 
+                    <Text type="Medium" color="Grey"> 
                         Fully designed and implemented a new user 
                         interface that will be used daily by the 
                         customers when released. Optimized and 
@@ -107,10 +106,10 @@ const About = (props) => {
                     <Text type="Medium" color="Grey">•	Python – Web scraping, Data parsing and translating, NumPy, Pandas, and machine learning experiments with scikit-learn</Text>
                     <Text type="Medium" color="Grey">•	JavaScript/HTML/CSS – React and Angular from Udemy courses to build single page responsive applications</Text>
                     <Text type="Medium" color="Grey">•	C – OpenSSL encryptions with AES and DES, steganography</Text>
-                    <Text type="Medium" color="Grey">•	C++ – Translating data from different formats into a format that can be used by ERSA </Text>
-                    <Text type="Medium" color="Grey">•	Bash – Scripts for build and deployment of project ERSA and automation of certain tasks that help facilitate development</Text>
+                    <Text type="Medium" color="Grey">•	C++ – Translating and parsing binary messages into different formats </Text>
+                    <Text type="Medium" color="Grey">•	Bash – Scripts for build, deployment, and automation of certain tasks that help facilitate development</Text>
                     <Text type="Medium" color="Grey">•	GIT – Collaboration with other members on the same project and GitHub pages</Text>
-                    <Text type="Medium" color="Grey">•	Figma/Adobe Photoshop and Illustrator – Used to create wireframes and prototypes</Text>
+                    <Text type="Medium" color="Grey">•	Figma,Adobe XD, Photoshop and Illustrator – Used to create wireframes and prototypes</Text>
                     <Text type="Medium" color="Grey">•	Windows/Linux/OSX – Proficient with most operating systems and Linux commands</Text>
                 </Paragraph>
             </Note>
